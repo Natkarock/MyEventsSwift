@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopDateViewController" customModule="MyEventsExample" customModuleProvider="target">
+            <connections>
+                <outlet property="datePicker" destination="rqo-Jh-WIQ" id="d6l-v9-q9j"/>
+                <outlet property="view" destination="rrO-zy-fmu" id="0CD-Eo-HNF"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="rrO-zy-fmu">
+            <rect key="frame" x="0.0" y="0.0" width="443" height="192"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+            <subviews>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="rqo-Jh-WIQ">
+                    <rect key="frame" x="0.0" y="0.0" width="443" height="162"/>
+                    <date key="date" timeIntervalSinceReferenceDate="549797368.76278496">
+                        <!--2018-06-04 09:29:28 +0000-->
+                    </date>
+                </datePicker>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7qk-V3-LhL">
+                    <rect key="frame" x="0.0" y="162" width="443" height="30"/>
+                    <state key="normal" title="OK"/>
+                    <connections>
+                        <action selector="okAction:" destination="-1" eventType="touchDown" id="21h-w3-HsT"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="7qk-V3-LhL" firstAttribute="leading" secondItem="rrO-zy-fmu" secondAttribute="leading" id="ETI-J1-HSh"/>
+                <constraint firstItem="GIf-h6-Ca4" firstAttribute="trailing" secondItem="rqo-Jh-WIQ" secondAttribute="trailing" id="cyv-jr-w1R"/>
+                <constraint firstItem="GIf-h6-Ca4" firstAttribute="trailing" secondItem="7qk-V3-LhL" secondAttribute="trailing" id="ozi-SZ-hH3"/>
+                <constraint firstItem="rqo-Jh-WIQ" firstAttribute="top" secondItem="GIf-h6-Ca4" secondAttribute="top" id="x5B-gw-3cp"/>
+                <constraint firstItem="rqo-Jh-WIQ" firstAttribute="leading" secondItem="rrO-zy-fmu" secondAttribute="leading" id="xuE-Ne-u1g"/>
+                <constraint firstItem="7qk-V3-LhL" firstAttribute="top" secondItem="rqo-Jh-WIQ" secondAttribute="bottom" id="zSM-SB-BdS"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="GIf-h6-Ca4"/>
+            <point key="canvasLocation" x="-175.5" y="-999"/>
+        </view>
+    </objects>
+</document>

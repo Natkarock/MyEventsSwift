@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>217368588446-abm180lfr5hl6j339553h0bpqtuvfsat.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.217368588446-abm180lfr5hl6j339553h0bpqtuvfsat</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDGfbmD3NT4rn-GSxJYdTXQqbojGFtOpeg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>217368588446</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.natateam.MyEventsExample</string>
+	<key>PROJECT_ID</key>
+	<string>contactsbirthday-a8939</string>
+	<key>STORAGE_BUCKET</key>
+	<string>contactsbirthday-a8939.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:217368588446:ios:381dcdd9a7a499f5</string>
+	<key>DATABASE_URL</key>
+	<string>https://contactsbirthday-a8939.firebaseio.com</string>
+</dict>
+</plist>

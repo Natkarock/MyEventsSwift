@@ -1,0 +1,37 @@
+### Headers settings
+company: natateam
+
+### Xcode project settings
+project_name: MyEventsExample
+xcodeproj_path: MyEventsExample.xcodeproj
+prefix: 
+
+### Code generation settings section
+# The main project target name
+project_target: MyEventsExample
+
+### Tests generation settings section
+# The tests target name
+test_target: MyEventsExample
+
+# The file path for new tests
+test_file_path: MyEventsExample/Tests
+
+# The Xcode group path to new tests
+test_group_path: MyEventsExample/Tests
+
+### Dependencies settings section
+podfile_path: Podfile
+
+
+# The file path for new modules
+project_file_path: MyEventsExample/Modules
+
+# The Xcode group path to new modules
+project_group_path: MyEventsExample/Modules
+
+### Templates
+templates:
+- {name: rviper_controller}
+- {name: mvvm_controller}
+- {name: swifty_viper}
